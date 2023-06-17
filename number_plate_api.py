@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 
-numberPlate_cascade = "cascade\numberplate_haarcade.xml"
+numberPlate_cascade = "numberplate_haarcade.xml"
 detector = cv2.CascadeClassifier(numberPlate_cascade)
 reader = easyocr.Reader(['en'])
 
