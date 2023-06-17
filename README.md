@@ -1,2 +1,2 @@
 # flask-api-1
- My to extract number plates from vehicle
+API to extract number plates from vehicle
